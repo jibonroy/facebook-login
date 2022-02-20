@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(236, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header.facebook{
+    background-color: white;
+    height: 13%;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    color: rgb(37, 112, 250);
+    font-size: 28pt;
+    box-shadow: 0 0 5px 0px rgba(120, 120, 120, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+
+input.mail{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border: 0.5px;
+    width: 12%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    margin-left: 35%;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+input.mail2{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border: 0.5px;
+    width: 12%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+
+input.login{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border: 0.5px;
+    background-color: rgb(52, 140, 255);
+    height: 32px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+.login:hover,
+.login:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 100, 223);
+  text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(52, 140, 255);
+    font-size: 12pt;
+}
+
+section.sec{
+    height: 50%;
+    width: 33%;
+    padding-left: 1%;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-left: 35%;
+    box-shadow: 0 0 8px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+p.p1{
+    font-size: 20px;
+}
+input.text{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border: 0.5px;
+    width: 95%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+input.cancel{
+    background-color: rgb(231, 231, 231);
+    height: 30px;
+    border: 0.5px;
+    width: 70px;
+    margin-left: 55%;
+    border-style: solid;
+    border-top-color: rgb(231, 231, 231);
+    border-left-color: rgb(231, 231, 231);
+    border-right-color: rgb(231, 231, 231);
+    border-bottom-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+    .cancel:hover,
+  .cancel:focus {
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 201, 201);
+    text-decoration: none;
+    cursor: pointer;
+  }
+input.submit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border: 0.5px;
+    background-color: rgb(52, 140, 255);
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+.submit:hover,
+.submit:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 100, 223);
+  text-decoration: none;
+  cursor: pointer;
+}
+footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+      height: 100px;
+      width: 100%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: white;
+      text-align: center;
+      box-shadow: 5px 5px 5px 5px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  }
+  

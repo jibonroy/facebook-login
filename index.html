@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in to Facebook- by Joy</title>
+    <link rel="Stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <table align="center" class="table1">
+        <tr>
+            <td>
+                <section class="facebook">
+                    <p>
+                    <div class="p1"><b>facebook</b></div>
+                    <div class="p2">Connect with friends and the world<br>around you on Facebook.</div>
+                    </p>
+                </section>
+            </td>
+            <td>
+                <section class="solid">
+                    <form action="#">
+                        <input type="text" placeholder="Email address or Phone Number" name="username" class="text"
+                            required>
+                        <br>
+                        <br>
+                        <input type="password" placeholder="Password" name="Password" class="text2" required>
+                        <br>
+                        <br>
+                        <input type="submit" value="Log In" class="submit">
+                        <br>
+                        <br><a href="./html/forgotpass.html" target="blank">
+                            <input type="button" value="Forgotten Password?" class="forgot"></a>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <input type="button" id="signupbtn" value="Create New Account" class="New">
+                    </form>
+                </section><br>
+                <div class="p0">
+                    <a href="#"><b id="page">Create a Page</b></a>
+                    for a celebrity, band or business
+                </div>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <p>
+            <b>©Copyright @Jibon Krishna Roy<br>
+                Facebook login page<br>
+                Created by :<br>
+                Jibon Krishna Roy
+            </b>
+        </p>
+    </footer>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+            <div class="hh1">Sign in</div>
+            <p>It's quick and easy</p>
+            <hr><br>
+            <form>
+                <!-- <label for="name">Name :</label><br> -->
+                <input type="text" name="name" class="name" placeholder="First name" required>
+                <input type="text" name="name" class="name2" placeholder="Last name" required>
+                <br><br>
+                <!-- <label for="Email">Email or Phone:</label><br> -->
+                <input type="email" class="name3" id="email1" name="Email" size="30%" placeholder="Email or Phone"
+                    required><br><br>
+                <!-- <label for="pass">New password :</label><br> -->
+                <input type="password" class="name4" size="30%" name="pass" placeholder="New password" id=""
+                    required><br><br>
+                <!-- <label for="pass">Retype password :</label><br> -->
+                <input type="password" size="30%" class="name5" name="pass" placeholder="Retype password" id=""
+                    required><br>
+                <br>
+                <label for="birthday">Date of birth :</label>
+                <input type="date" class="name6" name="birthday" id="" required>
+                <br>
+                <p>Sex :
+                    <input type="radio" id="Sex1" name="sex" value="male"><label for="Sex">Male</label>
+                    <input type="radio" id="Sex2" name="sex" value="Female"><label for="Sex">Female</label>
+                    <input type="radio" id="Sex3" name="sex" value="Other"><label for="Sex">Other</label>
+                </p>
+                <input type="checkbox" name="checkbox" id="" required>
+                <label for="checkbox">I accept terms and policies.</label><br><br>
+                <input type="submit" class="create" value="Create Account">
+            </form>
+            <p>Already have an account? Please <a href="./index.html" class="a1">Log in.</a></p>
+            </p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="./JS/JavaScript.js">// Get the modal
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.p0{
+    margin-left: 203px;
+    font-size: 10pt;
+}
+.p1{
+    color: rgb(37, 112, 250);
+    font-size: 36pt;
+}
+.p2{
+    color: black;
+    font-size: 14pt;
+}
+
+section.facebook{
+    margin-top: 5%;
+}
+
+section.solid{
+    height: 350px;
+    width: 380px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    box-shadow: 0 0 10px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+
+input.text{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border: 0.5px;
+    width: 95%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    margin-top: 20px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+input.text2{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border: 0.5px;
+    width: 95%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+input.submit{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16pt;
+    border-style: solid;
+    background-color: rgb(52, 140, 255);
+    height: 40px;
+    border: 0.5px;
+    width: 95%;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+.submit:hover,
+.submit:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 100, 223);
+  text-decoration: none;
+  cursor: pointer;
+}
+input.forgot{
+  font-size: 10pt;
+  color: rgb(20, 94, 255);
+    background-color: rgb(231, 231, 231);
+    height: 40px;
+    border: 0.5px;
+    width: 95%;
+    border-style: solid;
+    border-top-color: rgb(231, 231, 231);
+    border-left-color: rgb(231, 231, 231);
+    border-right-color: rgb(231, 231, 231);
+    border-bottom-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+}
+    .forgot:hover,
+  .forgot:focus {
+    color: rgb(24, 86, 255);
+    background-color: rgb(202, 201, 201);
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
+hr{
+    width: 250px;
+    border-style: 0.1px solid;
+
+}
+input.New{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+    border-style: solid;
+    background-color: rgb(13, 170, 34);
+    border: 0.5px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 1px 3px 0 rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 19);
+}
+
+.New:hover,
+  .New:focus {
+    color: rgb(255, 255, 255);
+    background-color: darkgreen;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+b{
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+a.a1{
+  color: rgb(35, 104, 255);
+}
+
+input.name{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    border: 0.5px;
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+    
+}
+
+
+input.name2{  
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 20%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  
+}
+input.name3{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 63%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  
+}
+input.name4{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 63%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  
+}
+input.name5{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 63%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  
+}
+input.name6{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 38%;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(175, 175, 175);
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 3px 0px rgba(0, 180, 255, 2), 0 0 0 0 rgba(0, 0, 0, 1);
+  
+}
+input.create{
+  border-style: solid;
+  background-color: rgb(13, 170, 34);
+  border: 0.5px;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  box-shadow: 0 1px 3px 0 rgba(130, 130, 130, 2), 0 0 0 0 rgba(0, 0, 0, 19);
+}
+.create:hover,
+  .create:focus {
+    color: rgb(255, 255, 255);
+    background-color: darkgreen;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* pop up */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    border-radius: 15px;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 350px; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.hh1{
+      line-height: 0%;
+      font-size: 24pt;
+      font: bold;
+  }
+hr{
+  margin-left: 0;
+  width: 100%;
+}
+
+footer{ 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+    height: 100px;
+    width: 100%;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
